@@ -1,0 +1,144 @@
+*{
+	margin: 0px;
+	font-family: 'proximanova-light-webfont';
+}
+@font-face{
+	font-family: proximanova-bold-webfont;
+	src: url(../fonts/nova/proximanova-bold-webfont.ttf);
+}
+@font-face{
+	font-family:proximanova-light-webfont;
+	src: url(../fonts/nova/proximanova-light-webfont.ttf);
+}
+@font-face{
+	font-family: proximanova-regitalic-webfont;
+	src: url(../fonts/nova/proximanova-regitalic-webfont.ttf);
+}
+@font-face{
+	font-family: proximanova-regular-webfont;
+	src: url(../fonts/nova/proximanova-regular-webfont.ttf);
+}
+@font-face{
+	font-family: ProximaNova-Semibold;
+	src: url(../fonts/nova/ProximaNova-Semibold.ttf);
+}
+.container-fluid{
+	width: 100%;
+}
+header{
+    padding: 10px 100px;
+}
+header nav{
+	float: right;
+	margin-top: 30px;
+}
+header a{
+    text-decoration: none;
+    color: gray;
+    font-family: 'proximanova-light-webfont';
+    padding: 30px;
+    font-size: 20px;
+}
+header a:hover{
+    text-decoration: none;
+    color: black;
+    font-family: 'proximanova-light-webfont';
+    padding: 30px;
+    font-size: 20px;
+}
+.bg-home{
+	background-image: url('../img/hero-image.jpg');
+	background-size: cover;
+	padding: 150px 0px 30px;
+	text-align: center;
+}
+.bg-home .col-12{
+	color: white;
+    font-size: 40px;
+    font-family: 'proximanova-regular-webfont';
+}
+.flecha{
+	margin-top: 100px;
+}
+.content-intro{
+	text-align: center;
+	padding: 100px 0px 50px;
+}
+.content-intro p{
+    font-size: 18px;
+}
+.col-4 .box-col{
+	text-align: center;
+	border: 1px solid silver;
+	padding: 20px 13px;
+	height: 250px;
+	margin-bottom: 100px;
+}
+.box-col p, .box-col h3{
+	margin-top: 20px;
+}
+.bg-form{
+	background-image: url('../img/background-contac-us.jpg');
+    background-size: cover;
+}
+.col-6{
+	text-align: center;
+	padding-top: 100px;
+
+}
+.bg-form .col-6 h1{
+	color: white;
+	font-family: 'proximanova-bold-webfont';
+    font-size: 30px;
+    margin-top: 80px;
+}
+.bg-form p{
+	font-family: 'proximanova-light-webfont';
+	color: white;
+	margin-top: 20px;
+}
+input{
+	display: block;
+	margin: auto;
+}
+.box-input{
+	margin: 15px auto;
+	text-align: center;
+	font-family: 'proximanova-regular-webfont';
+	padding: 10px 10px;
+	font-size: 20px;
+}
+.send{
+	background-color: #179AD6;
+	color: white;
+	padding: 10px 50px;
+	border: 1px solid #179AD6;
+	font-size: 18px;
+	margin-bottom: 100px;
+}
+footer{
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.col-6 nav{
+	margin-top: 20px;
+}
+.col-6 a{
+    text-decoration: none;
+    color: gray;
+    margin: 10px;
+}
+.col-6 a:hover{
+    text-decoration: none;
+    color: #179AD6 ;
+    margin: 10px;
+}
+
+.box-redes{
+	margin-top: 30px;
+}
+.copy{
+	font-size: 12px;
+	color: silver;
+	margin-top: 15px;
+}
