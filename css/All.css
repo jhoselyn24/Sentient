@@ -1,0 +1,48 @@
+*{
+	margin: 0px;
+	font-family: 'proximanova-light-webfont';
+}
+@font-face{
+	font-family: proximanova-bold-webfont;
+	src: url(../fonts/nova/proximanova-bold-webfont.ttf);
+}
+@font-face{
+	font-family:proximanova-light-webfont;
+	src: url(../fonts/nova/proximanova-light-webfont.ttf);
+}
+@font-face{
+	font-family: proximanova-regitalic-webfont;
+	src: url(../fonts/nova/proximanova-regitalic-webfont.ttf);
+}
+@font-face{
+	font-family: proximanova-regular-webfont;
+	src: url(../fonts/nova/proximanova-regular-webfont.ttf);
+}
+@font-face{
+	font-family: ProximaNova-Semibold;
+	src: url(../fonts/nova/ProximaNova-Semibold.ttf);
+}
+.container-fluid{
+	width: 100%;
+}
+header{
+    padding: 10px 100px;
+}
+header nav{
+	float: right;
+	margin-top: 30px;
+}
+header a{
+    text-decoration: none;
+    color: gray;
+    font-family: 'proximanova-light-webfont';
+    padding: 30px;
+    font-size: 20px;
+}
+header a:hover{
+    text-decoration: none;
+    color: black;
+    font-family: 'proximanova-light-webfont';
+    padding: 30px;
+    font-size: 20px;
+}
