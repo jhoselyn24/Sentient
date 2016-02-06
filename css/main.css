@@ -141,7 +141,9 @@ footer{
 	margin-top: 15px;
 }
 
-
+.row{
+	margin: 0px;
+}
 @media screen and (min-width:299px) and (max-width: 768px){
 	.container{
 		width: 100%;
