@@ -27,6 +27,7 @@
 }
 header{
     padding: 10px 100px;
+    border-bottom: 1px solid silver;
 }
 header nav{
 	float: right;

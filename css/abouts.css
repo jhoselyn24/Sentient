@@ -1,0 +1,67 @@
+}
+@font-face{
+	font-family: proximanova-bold-webfont;
+	src: url(../fonts/nova/proximanova-bold-webfont.ttf);
+}
+@font-face{
+	font-family:proximanova-light-webfont;
+	src: url(../fonts/nova/proximanova-light-webfont.ttf);
+}
+@font-face{
+	font-family: proximanova-regitalic-webfont;
+	src: url(../fonts/nova/proximanova-regitalic-webfont.ttf);
+}
+@font-face{
+	font-family: proximanova-regular-webfont;
+	src: url(../fonts/nova/proximanova-regular-webfont.ttf);
+}
+@font-face{
+	font-family: ProximaNova-Semibold;
+	src: url(../fonts/nova/ProximaNova-Semibold.ttf);
+}
+.comilla{
+	-webkit-transform: rotate(180deg);
+}
+.col-12 h1{
+     color: #002366;
+     font-family: 'proximanova-regular-webfont';
+     text-align: center;
+     font-size: 50px;
+     margin-top: 50px;
+}
+.box-row{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.size-p{
+	font-size: 20px;
+}
+p{
+	font-size: 18px;
+	font-family: 'proximanova-regular-webfont';
+}
+.bg-about{
+	background-image: url('../img/background-about-us.jpg');
+    padding: 80px;
+    margin: 0 auto;
+    text-align: center;
+}
+.bot-read{
+	text-decoration: none;
+	color: white;
+	background: #002366;
+	font-size:20px;
+	padding: 10px 40px;
+	border-radius: 5px;
+	font-family: 'proximanova-regular-webfont';	
+
+}
+.bot-read:hover{
+	text-decoration: none;
+	color: black;
+	background: #002366;
+	font-size:20px;
+	padding: 10px 40px;
+	border-radius: 5px;
+	font-family: 'proximanova-regular-webfont';
+}

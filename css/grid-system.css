@@ -29,8 +29,7 @@
 
 .row {
 	width: 100%;
-
-	margin-right: -14px;
+    margin-right: -14px;
 }
 
 .row:before, .row:after{

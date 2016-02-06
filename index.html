@@ -1,13 +1,40 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
 <head>
+    <meta charset="utf-8">
 	<title>Sentient</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
+	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-  <header>
+    <nav class="hidden-lg navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img class="img-xs" src="img/logo-iconos/sentient-logo.png"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+         <div class="flex-list">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../navbar/">About SIM</a></li>
+            <li><a href="../navbar-static-top/">Contact us</a></li>
+          </ul>
+         </div>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+ <header class="hidden-xs">
   	<div class="row">
   		<div class="col-3">
   			<img src="img/logo-iconos/sentient-logo.png">
@@ -26,11 +53,11 @@
 	<div class="bg-home">
 		<div class="container">
 			<div class="row">
-				<div class="col-12">
-					<h1>Sentient Investment Management.</h1>
-					<h1>Trading. Evolved</h1>
+				<div class="col-xs-12">
+					<h1 class="text-white ">Sentient Investment Management.</h1>
+					<h1 class="text-white">Trading. Evolved</h1>
 					<div class="flecha">
-						<img src="img/logo-iconos/flecha-scroll-down-home.png">
+						<a href="#texto-fold"><img src="img/logo-iconos/flecha-scroll-down-home.png"></a>
 					</div>
 				</div>
 			</div>
@@ -38,7 +65,7 @@
 	</div>
 </section>
 
-<section>
+<section id="texto-fold">
 	<div class="container content-intro">
 		<p class="lh texto-gray">Sentient Investment Management Is a San Francisco-based firm developing and applying proprietary quantitative trading and investment strategies built using the world's most powerful distributed artificial intelligence system.</p>
 
@@ -46,10 +73,10 @@
 	</div>
 </section>
 
-<section>
+<section id="boxes">
 	<div class="container">
 		<div class="row">
-			<div class="col-4">
+			<div class="col-md-4">
 				<div class="box-col">
 					<img src="img/logo-iconos/About SIM-icon.png">
 					<h3>About SIM</h3>
@@ -57,7 +84,7 @@
 				</div>
 			</div>
 
-			<div class="col-4">
+			<div class="col-md-4">
 				<div class="box-col">
 					<img src="img/logo-iconos/Careers-icon.png">
 					<h3>Careers</h3>
@@ -65,7 +92,7 @@
 				</div>
 			</div>
 
-			<div class="col-4">
+			<div class="col-md-4">
 				<div class="box-col">
 					<img src="img/logo-iconos/Management-icon.png">
 					<h3>Management</h3>
@@ -81,16 +108,16 @@
 	 <div class="container">
 	  <div class="row">
       <div class="col-3"></div>
-		  <div class="col-6 content-contact">
-		    <h1>Contact us</h1>
-		    <p>If you have a question or want more information, please send us a message</p>
+		  <div class="col-6 col-xs-12 p-t-0 content-contact">
+		    <h1 class="text-blue-xs">Contact us</h1>
+		    <p class="text-blue-xs">If you have a question or want more information, please send us a message</p>
 
 		    <form>
-		      <input type="text"  size="40" title="Name" placeholder="Name" class="box-input" >
-              <input type="company" size="40" title="Company" placeholder="Company" class="box-input"> 
-              <input type="E-mail" size="40" title="E-mail" placeholder="E-mail" class="box-input">
-              <input type="msn" size="40" placeholder="Message" class="box-input">    
-              <input class="send" type="submit" value="Send">
+		      <input type="text"  size="40" title="Name" placeholder="Name" class="w-100-xs box-input" >
+              <input type="company" size="40" title="Company" placeholder="Company" class="w-100-xs box-input"> 
+              <input type="E-mail" size="40" title="E-mail" placeholder="E-mail" class="w-100-xs box-input">
+              <input type="msn" size="40" placeholder="Message" class="w-100-xs box-input">    
+              <input class="w-100-xs box-input send" type="submit" value="Send">
  
 		    </form>
 		  </div>
@@ -102,7 +129,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-3"></div>
-			<div class="col-6">
+			<div class="col-6 col-xs-12">
 				<nav>
 					<a href="#"><b>About SIM</b></a>
 					<a href="#"><b>Contact us</b></a>
@@ -122,5 +149,8 @@
 		</div>
 	</div>
 </footer>
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

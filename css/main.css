@@ -67,11 +67,10 @@ header a:hover{
 .content-intro p{
     font-size: 18px;
 }
-.col-4 .box-col{
+#boxes .box-col{
 	text-align: center;
 	border: 1px solid silver;
-	padding: 20px 13px;
-	height: 250px;
+	padding: 20px 15px;
 	margin-bottom: 100px;
 }
 .box-col p, .box-col h3{
@@ -83,7 +82,6 @@ header a:hover{
 }
 .col-6{
 	text-align: center;
-	padding-top: 100px;
 
 }
 .bg-form .col-6 h1{
@@ -141,4 +139,53 @@ footer{
 	font-size: 12px;
 	color: silver;
 	margin-top: 15px;
+}
+
+
+@media screen and (min-width:299px) and (max-width: 768px){
+	.container{
+		width: 100%;
+	}
+	.col-xs-12{
+		width: 100%;
+	}
+	.w-100-xs{
+		width: 100%;
+	}
+	.fs-1-8-rem{
+	   font-size: 1.8rem;
+	}
+	.bg-form {
+	    background-image: none;
+	    background-color: #f3f1f1;
+	}
+	.text-blue-xs{
+		color:#14688A !important;
+	}	
+	.text-align{
+		text-align: center;
+	}
+	.p-0{
+		padding:0px;
+	}
+	.navbar {
+	    margin-top: 0px !important	;
+	    margin-bottom: 0px !important;
+	}
+	.p-t-0{
+		padding-top: 0px;
+	}
+	
+	.img-xs{
+		position: relative;
+		left:90px;
+		height: 35px;
+		text-align: center;
+		top: -5px;
+
+	}
+	.navbar-header {
+		padding-bottom: 7px;
+	}
+
 }
