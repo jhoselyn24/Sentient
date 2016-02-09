@@ -65,7 +65,7 @@ header a:hover{
 	padding: 100px 0px 50px;
 }
 .content-intro p{
-    font-size: 18px;
+    font-size: 20px;
 }
 #boxes .box-col{
 	text-align: center;
@@ -76,6 +76,7 @@ header a:hover{
 .box-col p, .box-col h3{
 	margin-top: 20px;
 }
+
 .bg-form{
 	background-image: url('../img/background-contac-us.jpg');
     background-size: cover;
@@ -118,15 +119,15 @@ footer{
 	padding-top: 30px;
 	padding-bottom: 50px;
 }
-.col-6 nav{
+.box-footer nav{
 	margin-top: 20px;
 }
-.col-6 a{
+.box-footer a{
     text-decoration: none;
     color: gray;
     margin: 10px;
 }
-.col-6 a:hover{
+.box-footer a:hover{
     text-decoration: none;
     color: #179AD6 ;
     margin: 10px;
@@ -189,5 +190,12 @@ footer{
 	.navbar-header {
 		padding-bottom: 7px;
 	}
+    .bg-white{
+    	background-color: white;
+    }
+    .plr-20-xs{
+    	padding-left: 20px !important;
+    	padding-right: 20px !important;
+    }
 
 }
