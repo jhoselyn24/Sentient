@@ -72,6 +72,7 @@ header a:hover{
 	border: 1px solid silver;
 	padding: 20px 15px;
 	margin-bottom: 100px;
+	height: 250px;
 }
 .box-col p, .box-col h3{
 	margin-top: 20px;
@@ -145,12 +146,34 @@ footer{
 .row{
 	margin: 0px;
 }
+.fz-18{
+	font-size: 18px;
+}
+.lh-0{
+	line-height: 0px;
+}
+.mt-0{
+	margin-top: 0px;
+}
+.mb-30{
+	margin-bottom: 30px;
+}
+.fz-50{
+	font-size: 50px;
+}
+.mrl-100{
+	padding-left:100px;
+	padding-right: 100px;
+}
 @media screen and (min-width:299px) and (max-width: 768px){
 	.container{
 		width: 100%;
 	}
 	.col-xs-12{
 		width: 100%;
+	}
+	.fz-20-xs{
+		font-size: 40px;
 	}
 	.w-100-xs{
 		width: 100%;
@@ -198,4 +221,36 @@ footer{
     	padding-right: 20px !important;
     }
 
+    .p-v{
+
+        padding: 30px 5px;
+    }
+    .text-decoration{
+    	text-decoration: none !important;
+    }
+
 }
+@media only screen and (min-width: 768px) {
+  .container-xs,
+  .container-sm,
+  .container-md {
+    padding-left: 14px;
+    padding-right: 14px;
+    margin: 0 auto; }
+
+  .container-xs {
+    width: 508px; }
+
+  .container-sm {
+    width: 748px; }
+
+  .container-md {
+    width: 968px; } }
+@media only screen and (max-width: 480px) {
+  .container-xs,
+  .container-sm,
+  .container-md {
+    width: 100%;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin: 0 auto; } }
